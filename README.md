@@ -31,5 +31,5 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/quickbite-food-ordering-app.git
-cd quickbite-food-ordering-app
+git clone https://github.com/Shwetha-27z/QuickBite.git
+cd QuickBite
