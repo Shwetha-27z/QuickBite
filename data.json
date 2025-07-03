@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "name": "Margherita Pizza",
+      "price": 199,
+      "category": "Pizza",
+      "image": "images/pizza.jpg"
+    },
+    {
+      "name": "Veg Burger",
+      "price": 149,
+      "category": "Burger",
+      "image": "images/burger.jpg"
+    },
+    {
+      "name": "Pasta",
+      "price": 179,
+      "category": "Pasta",
+      "image": "images/pasta.jpg"
+    },
+    {
+      "name": "Grilled Sandwich",
+      "price": 129,
+      "category": "Sandwich",
+      "image": "images/sandwich.jpg"
+    },
+    {
+      "name": "White Sauce Pasta",
+      "price": 199,
+      "category": "Pasta",
+      "image": "images/white-sauce-pasta.jpg"
+    },
+    {
+      "name":"B+FF+C+D",
+      "price":500,
+      "category":"COMBO",
+      "image":"images/combo1.jpeg"
+    },
+    {
+      "name":"French Fries",
+      "price":200,
+      "category":"FF + COKE",
+      "image":"images/french fries.jpg"
+    }
+  ]
+}

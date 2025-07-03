@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuickBite 🍔</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔝 Navbar -->
+  <nav>
+    <div class="logo">Quick<span>Bite</span> 🍴</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🏠 Home Section -->
+  <section id="home">
+    <div class="overlay">
+      <div class="home-content">
+        <h1>Craving? <span>Order Now</span></h1>
+        <p>Delicious food delivered hot & fast to your doorstep.</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+        <a href="#order" class="btn-secondary">Place Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🍽️ Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <p class="menu-subtext">Freshly prepared, hand-picked recipes</p>
+    <div class="menu-items" id="menu-container"></div>
+  </section>
+
+ <!-- 📝 Order Section -->
+<section id="order">
+  <h2>Place Your Order</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="text" placeholder="Food Item" required />
+    <input type="number" placeholder="Quantity" required />
+    <input type="text" placeholder="Address" required />
+    <button type="submit">Submit Order</button>
+  </form>
+  <div id="order-message"></div> <!-- ✅ New confirmation message box -->
+</section>
+
+
+ <!-- 🌐 Footer -->
+<footer>
+  <div class="footer-content">
+    <h3>QuickBite 🍴</h3>
+    <p>Email us at: <a href="mailto:quickbite@example.com">quickbitecontact@gmail.com</a></p>
+    <button onclick="window.location.href='suwethamarimuthu@gmail.com'">Send Message to Us</button>
+
+  </div>
+  <p class="footer-bottom">© 2025 QuickBite. All rights reserved.</p>
+</footer>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
