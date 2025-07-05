@@ -9,6 +9,7 @@ describe("🍟 Menu Rendering - Mock Test", () => {
       name: "Test Burger",
       price: 99,
       category: "Fast Food",
+      
       image: "images/test-burger.jpg"
     },
     {

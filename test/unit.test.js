@@ -1,5 +1,5 @@
 // formUtils.test.js
-const { isFormValid } = require('../sampleQB');
+const { isFormValid } = require('../logic');
 
 describe("Form Validation", () => {
   test("valid input should pass", () => {
@@ -11,7 +11,7 @@ describe("Form Validation", () => {
   });
 
   test("zero quantity should fail", () => {
-    expect(isFormValid("Shwe", "Burger", 0, "Chennai")).toBe(false);
+    expect(isFormValid("Shwez", "Burger", 0, "Chennai")).toBe(false);
   });
 
   test("empty address should fail", () => {
